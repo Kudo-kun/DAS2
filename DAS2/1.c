@@ -70,7 +70,7 @@ void DFS(int x, int req, int visited[], int mat[][n])
  * First, sort all structs(according to cost, in increasing order);
  * chose the edge with minimum cost, check if forms a cycle with previous edges;
  * if no, add its cost to the min_cost and mark the the two vertices as selected;
- * else, don't else select them;
+ * else, don't select them;
  * repeat;
  */
 int findMinCost(Node nodes[])
