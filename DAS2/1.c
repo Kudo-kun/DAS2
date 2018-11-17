@@ -40,7 +40,7 @@ void structSort(Node nodes[])
 }
 
 /**
- * An ordinary DFS function which will check if 'any' path from x will lead us to the required vertice somehow;
+ * An ordinary DFS function which will check if 'any' path from 'x' will lead us to the required vertex somehow;
  * if x and req are disconnected, then we'll never be able to reach req from x;
  */
 void DFS(int x, int req, int visited[], int mat[][n])
