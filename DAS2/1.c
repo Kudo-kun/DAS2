@@ -28,7 +28,7 @@ void swap(Node* a, Node* b)
 /**
  * a sort function that sorts the given structs(which have vertices and cost),
  * according to the costs of the edges;
- * implements selection sort;
+ * implements bubble sort;
  */
 void structSort(Node nodes[])
 {
