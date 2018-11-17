@@ -72,7 +72,7 @@ void checkIsomorphism(int l, int r, int arr[], int A[][2], int B[][2])
 
 int main()
 {
-	scanf("%d%d", &n1, &m1);
+    scanf("%d%d", &n1, &m1);
     int A[m1][2];
     for(int i = 0; i < m1; i++)
         scanf("%d%d", &A[i][0], &A[i][1]);                                               //scan the 'edges' matrix1;
@@ -86,5 +86,5 @@ int main()
 
     checkIsomorphism(0, n1-1, arr, A, B);                                                //check if an isomorphism exists; 
     (n1 != n2 || m1 != m2 || val != 1) ? printf("\nNO!\n") : printf("\nYES!\n");         //print yes, if isomorphism exists, else print no;
-	return 0;
+    return 0;
 }
