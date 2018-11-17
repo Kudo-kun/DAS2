@@ -85,6 +85,6 @@ int main()
         arr[i] = i;                                                                      //since vertices are named from 0, n-1, consider them as an array, {0,1, 2, 3, ...n-1};
 
     checkIsomorphism(0, n1-1, arr, A, B);                                                //check if an isomorphism exists; 
-    (n1 != n1 || m1 != m2 || val != 1) ? printf("\nNO!\n") : printf("\nYES!\n");         //print yes, if isomorphism exists, else print no;
+    (n1 != n2 || m1 != m2 || val != 1) ? printf("\nNO!\n") : printf("\nYES!\n");         //print yes, if isomorphism exists, else print no;
 	return 0;
 }
